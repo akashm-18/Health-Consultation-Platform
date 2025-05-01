@@ -13,6 +13,8 @@ app.use(cors({ origin: 'http://localhost:5173' }));
 // Middleware for JSON parsing
 app.use(express.json());
 
+console.log("Added consoles --- Akash M")
+
 // Route to handle user login
 app.post('/login', async (req, res) => {
   const { email, password } = req.body;
